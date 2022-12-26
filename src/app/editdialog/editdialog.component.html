@@ -1,0 +1,90 @@
+<!-- <p>editdialog works!</p> -->
+<h1 class="head"> Edit Course Details </h1>
+<!-- <mat-stepper orientation="horizontal" #stepper>
+    <mat-step [stepControl]="formGroup1" label="Course Name">
+        <form (ngSubmit)="form1()">
+            <ng-template matStepLabel> Name </ng-template>
+            <mat-form-field appearance="fill">
+                <mat-label> Name of the Course: </mat-label>
+                <input matInput type="text" name="name" class="form-control" formControlName="name">
+            </mat-form-field><br>
+
+            <div>
+                <button matStepperNext> Next </button>
+            </div>
+        </form>
+    </mat-step>
+
+    <mat-step [stepControl]="formGroup2" label="Course Description">
+        <form (ngSubmit)="form2()">
+            <mat-form-field appearance="fill">
+                <mat-label> Description: </mat-label>
+                <input matInput type="any" name="description" class="form-control" formControlName="description">
+            </mat-form-field>
+            <div>
+                <button matStepperPrevious> Back </button>                
+                <button matStepperNext> Next </button>                
+            </div>
+        </form>
+    </mat-step>
+
+    <mat-step [stepControl]="formGroup3" label="category">
+        <form (ngSubmit)="form3()">
+            <mat-form-field appearance="outline">
+                <div class="form-group">
+                    <mat-label> Category: </mat-label>
+                    <mat-select class="form-control" name="category" formControlName="category">
+                        <mat-option value="Freshers"> Freshers </mat-option>
+                        <mat-option value="Advanced"> Advanced </mat-option>
+                    </mat-select>
+                </div>
+            </mat-form-field>
+            <div>
+                <button matStepperPrevious> Back </button>
+                <button matStepperNext> Next </button>
+                <button mat-stroked-button class="cancel-btn" (click)="cancel()"> Cancel </button>
+                <button mat-stroked-button class="submit-btn" (click)="savedetails()"> Save </button>
+            </div>
+        </form>
+    </mat-step>
+
+    <mat-step>
+        <form>
+            <div>
+                <button mat-stroked-button class="cancel-btn" (click)="cancel()"> Cancel </button>
+                <button mat-stroked-button class="submit-btn" (click)="savedetails()"> Save </button>
+            </div>
+        </form>
+    </mat-step> 
+</mat-stepper> -->
+
+<form [formGroup]="formdata" class="editCourse" (ngSubmit)="savedetails(formdata.value)">
+    <div class="form">
+        <mat-form-field appearance="fill">
+            <label for="name"> Name: </label>
+            <input matInput type="text" class="form-control" formControlName="name">
+        </mat-form-field>
+    </div>
+
+    <div class="form">
+        <mat-form-field appearance="fill">
+            <label for="description"> Description: </label>
+            <input matInput type="any" class="form-control" formControlName="description">
+        </mat-form-field>
+    </div>
+
+    <div class="form">
+        <mat-form-field appearance="fill">
+            <label for="category"> Category: </label>
+            <mat-select class="form-control" name="category" formControlName="category">
+                <mat-option value="Freshers"> Freshers </mat-option>
+                <mat-option value="Advanced"> Advanced </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div><br>
+
+    <div class="button">
+        <button class="cancel-btn" (click)="cancel()"> Cancel </button>
+        <button class="update-btn" type="submit"> Save </button>
+    </div>
+</form> 

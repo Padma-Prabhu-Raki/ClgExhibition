@@ -1,0 +1,36 @@
+.head{
+    font-size: x-large;
+    font-weight: 300;
+    text-align: center;
+}
+
+.editCourse{
+    width: 500px;
+    height: 500px;
+    border : 2px outset;
+    justify-content: center;
+}
+
+.form{
+    margin: 20px;
+    margin-left : 120px;
+    align-items: center;
+}
+
+.form-control{
+    border : 3px;
+    margin-top: 5px;
+}
+
+.button{
+    width: 200px;
+    height : 40px;
+    font-size: medium;
+    display: flex;
+    margin-left: 124px;
+}
+
+.update-btn{
+    margin-left: 40px;
+}
+

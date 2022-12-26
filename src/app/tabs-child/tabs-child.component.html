@@ -1,0 +1,22 @@
+<!-- <p>tabs-child works!</p> -->
+
+<div class="main">
+    <mat-card class="card" *ngFor="let course of courseDetails | async">
+        
+        <mat-card-header>
+            <mat-card-title class="cardtitle"> {{course?.name}} </mat-card-title>
+        </mat-card-header>
+
+        <div class="courseImage">
+            <img class="image" src="{{course?.image}}" alt="image">
+        </div>
+
+        <mat-card-content>
+            <p class="description"> <b> Description: </b> {{course?.description}} </p>
+        </mat-card-content>
+
+        <mat-card-actions>
+            <button class="edit-btn" (click)="editCourse(course)"> Edit </button>
+        </mat-card-actions>
+    </mat-card>
+</div>

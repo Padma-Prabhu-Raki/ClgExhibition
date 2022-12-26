@@ -1,0 +1,115 @@
+<div> 
+  <div class="hello">
+        <button class="menu-btn" (click)="snav.toggle()">
+            <mat-icon fontIcon="menu"></mat-icon>
+        </button>
+        <h1 class="topic"> Skill Development Training </h1><br>
+  </div>
+
+  <div>
+    <mat-sidenav-container class="container" autosize>
+      <mat-sidenav #snav class="sidebox" mode="push">
+        <mat-nav-list>
+          <a mat-list-item routerLink="/beginners"> Courses </a>
+        </mat-nav-list>
+      </mat-sidenav>
+            
+      <mat-sidenav-content>
+        <router-outlet></router-outlet>
+      </mat-sidenav-content>
+
+    </mat-sidenav-container>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="header">
+    <div>
+        <h1> </h1>
+        <button class="menu-btn" (click)="snav.toggle()"> <mat-icon fontIcon="menu"> Menu </mat-icon> </button>
+    </div>
+</div>
+<div>
+    <mat-sidenav-container autosize>
+        <mat-sidenav #snav mode="over">
+            <mat-nav-list>
+                Courses
+            </mat-nav-list>
+        </mat-sidenav>
+        <mat-sidenav-content>
+            <router-outlet></router-outlet>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div> -->
+
+
+<!-- <mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+      <p>Auto-resizing sidenav</p>
+      <p >Lorem, ipsum dolor sit amet consectetur.</p>
+      <button (click)="drawer.toggle()" mat-raised-button>
+        Toggle extra text
+      </button>
+    </mat-drawer>
+  
+    <div class="example-sidenav-content">
+      <button type="button" mat-button (click)="drawer.toggle()">
+        Toggle sidenav
+      </button>
+    </div> 
+  
+  </mat-drawer-container>  -->
+
+  <!-- <div class="example-container">
+     <mat-toolbar color="primary" class="example-toolbar">
+      
+      <h1 class="example-app-name">Responsive App</h1>
+     </mat-toolbar> 
+  
+    <mat-sidenav-container class="example-sidenav-container">
+      <mat-sidenav #snav  mode='over' 
+                   fixedTopGap="56">
+            <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+        <mat-nav-list>
+          <a mat-list-item routerLink="." >{{nav}}</a>
+        </mat-nav-list> 
+      </mat-sidenav>
+  
+      <mat-sidenav-content>
+         <p >{{content}}</p> 
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>
+  
+  <div>Please open on Stackblitz to see result</div> -->
+  

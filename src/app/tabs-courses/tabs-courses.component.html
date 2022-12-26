@@ -1,0 +1,70 @@
+<!-- <p>tabs-courses works!</p> -->
+
+<!-- <mat-tab-group>
+    <mat-tab id="freshers" label="Freshers">
+        <div class="row row-cols-1">
+            <div class="col-mb-4" *ngFor="let course of courseDataforFresher | async">
+                <mat-card class="card">
+                    <mat-card-header class="cardheader">
+                        <mat-card-title class="cardtitle"> {{course.name}} </mat-card-title>
+                    </mat-card-header>
+
+                    <div mat-card-avatar class="courseimage">
+                        <img class="image" src="{{course.image}}">
+                    </div><br><br><br>
+
+                    <mat-card-footer>
+                        <mat-card-content>
+                            <p class="description"> <b> Description: </b> {{course.description}} </p>
+                        </mat-card-content>
+
+                        <mat-card-actions>
+                            <button class="edit-btn" (click)="edit(course)"> Edit </button>
+                        </mat-card-actions>
+                    </mat-card-footer>
+                </mat-card>
+            </div>
+        </div>
+    </mat-tab>
+
+    <mat-tab id="advanced" label="Advanced">
+        <div class="row row-cols-1">
+            <div class="col-mb-4" *ngFor="let course of courseDataforAdvanced | async">
+                <mat-card class="card">
+
+                    <mat-card-header class="cardheader">
+                        <mat-card-title class="cardtitle"> {{course.name}} </mat-card-title>
+                    </mat-card-header>
+
+                    <div mat-card-avatar class="courseimage">
+                        <img class="image" src="{{course.image}}">
+                    </div>
+
+                    <!-- <mat-card-footer> 
+                        <mat-card-content class="contenet">
+                            <p class="description2"> <b> Description: </b> {{course.description}} </p>
+                        </mat-card-content>
+
+                        <mat-card-actions>
+                            <button class="edit-btn" (click)="edit(course)"> Edit </button>
+                        </mat-card-actions>
+                    <!-- </mat-card-footer> 
+                </mat-card>
+            </div>
+        </div>
+    </mat-tab>
+</mat-tab-group> -->
+
+<mat-tab-group>
+    <mat-tab label="Freshers">
+        <app-tabs-child  [courseDetails]="courseDataforFresher">
+                        <!-- (editEvent)="edit($event)"> -->
+        </app-tabs-child>
+    </mat-tab>
+
+    <mat-tab label="Advanced">
+        <app-tabs-child [courseDetails]="courseDataforAdvanced">
+                        <!-- (editEvent)="edit($event)"> -->
+        </app-tabs-child>
+    </mat-tab>
+</mat-tab-group>

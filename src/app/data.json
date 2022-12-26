@@ -1,0 +1,154 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Web Development",
+      "description": "A web developer is a professional who presents products and services of their customers in a creative way on a functional website.",
+      "icon": "1",
+      "price": "45,000",
+      "image": "https://www.webhopers.in/uploads/1/web-development-course-in-panchkula.png",
+      "category": "Freshers",
+      "lessons_count": 5
+    },
+    {
+      "id": "2",
+      "name": "Full Stack Development",
+      "description": "Have a great chance to learn both front-end and back-end and UI Interface, \n A full stack developer develops the server software for both the client and server. Full-stack developers are important because the modern data setup has become completely digitized and there is a need for developers in various sectors. ",
+      "icon": "2",
+      "price": "30,000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSLZ9G8P62GtmN3tlJ72fopF6-TdIUrkZOyQ&usqp=CAU",
+      "category": "Freshers",
+      "lessons_count": 5
+    },
+    {
+      "id": "3",
+      "name": "Data Science",
+      "description": "Data science is a blend of mathematics, business acumen, tools, algorithms and machine learning techniques, all of which help us in finding out the hidden insights or patterns from raw data which can be of major use in the formation of big business decisions. ",
+      "icon": "3",
+      "price": "60,000",
+      "image": "https://lh5.googleusercontent.com/j39FSjLX9-siNmss_iRWFF2Pf4q9sjh-wrb6JQH_TC_55FcTuNgasvbkmYJiO_EsyLnYpbrQArjcir2QIBgcmuzYmu7-HPOp-O6r3kZetO1Yiy7rAbZM3bsgOo60DgyGlReTlGTUxk8T9Wd7Hw",
+      "category": "Freshers",
+      "lessons_count": 5
+    },
+    {
+      "id": "4",
+      "name": "Artificial Intellignce and Internet of Things(IoT)",
+      "description": "Artificial Intelligence simply is the machine's ability to learn, adapt to new environments and perform human-like tasks. \n 2.IoT - Internet of Things (IoT) describes the network of physical objects— “things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. ",
+      "icon": "4",
+      "price": "70,000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlUw-_Br_FNY9e2yTVeDHin6p8U1IvMnnB1w&usqp=CAU",
+      "category": "Advanced",
+      "lessons_count": 5
+    },
+    {
+      "id": "5",
+      "name": "Mobile App Development",
+      "description": "In this digital age, when everything you need is just a click away, a mobile app development course is perfect for a fresher who would like to develop apps on different platforms like iOS or Android. ",
+      "icon": "5",
+      "price": "35,000",
+      "image": "https://elearneresources.com/wp-content/uploads/2020/05/Mobile-app-development.png",
+      "category": "Freshers",
+      "lessons_count": 5
+    },
+    {
+      "id": "6",
+      "name": "Digital Marketing",
+      "description": "Digital Marketing is one which deals with enhancing brand awareness and is responsible for developing, implementing and managing marketing in the digital space. It basically means promoting a product on electronic media. Some of the top institutes offering digital marketing courses are Crampete, Edukart, and Internet & Mobile Research institute.",
+      "icon": "6",
+      "price": "20,000",
+      "image": "https://www.nielit.gov.in/sites/default/files/Aurangabad/WhatsApp%20Image%202020-11-12%20at%2012.01.16%20PM.jpeg",
+      "category": "Freshers",
+      "lessons_count": 5
+    },
+    {
+      "id": "7",
+      "name": "Python for Freshers",
+      "description": "Python is fast emerging as one of the top software courses in 2022 as it is concise, easy to read and is a good language that can be used for everything from web development to software development.",
+      "icon": "7",
+      "price": "20,000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDRS2D120eF4vhcFKCqwSRT5mxptjL6mYAsg&usqp=CAU",
+      "category": "Freshers",
+      "lessons_count": 5
+    },
+    {
+      "id": "8",
+      "name": "Data Structures of C and complete Java Bootcamp",
+      "description": "A complete JAVA Bootcamp for Freshers and excellent training leads to made to be a Good Developer.",
+      "icon": "8",
+      "price": "25,000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9OEWoxecUpu4xYX72bIGx_2J-XFOS-2AR-i5Z1Wv8xg&s",
+      "category": "Freshers",
+      "lessons_count": 5
+    },
+    {
+      "id": "9",
+      "name": "Mangement Skill Training",
+      "description": "1.Managing and Motivating Individuals, \n 2.Leading high performing Teams. \n 3. Engaging people in the continuous improvement of work processes",
+      "icon": "9",
+      "price": "80,000",
+      "image": "https://resume.naukri.com/articles/wp-content/uploads/sites/7/2020/05/management-skills.jpg",
+      "category": "Advanced",
+      "lessons_count": 5
+    },
+    {
+      "id": "10",
+      "name": "Leadership Skills and Business Analytics",
+      "description": "This course is designed for working professionals, who are aspiring for rapid career progression in the high-growth areas of Business Analytics and Big Data, and wish to stand out in highly competitive workplaces by acquiring a prestigious Certificate in modern Institution",
+      "icon": "10",
+      "price": "80,000",
+      "image": "https://www.aihr.com/wp-content/uploads/Leadership-Competencies.png",
+      "category": "Advanced",
+      "lessons_count": 5
+    },
+    {
+      "id": "11",
+      "name": "Satellite Communications",
+      "description": "Theoritical of discovery satellites and for aspirants who want to know more about Transponders, the geostationary orbit(GSO), QPSK Modulation, Channel Coding, link Budget, TCP over large bandwdith x delay product links",
+      "icon": "11",
+      "price": "1,50,000",
+      "image": "https://www.cei.se/pub/media/catalog/product/cache/660dba1422f99328d249c590de425877/8/2/820c.jpg",
+      "category": "Advanced",
+      "lessons_count": 5
+    },
+    {
+      "id": "12",
+      "name": "Structural Design and Optimization",
+      "description": "This course teaches you step by step procedure for Structural Design of foundations. \n How to use data from STAAD pro software, exporting and utilization in Structural design. \n Interpreting Geotechnical Reports , to extract Soil parameters for Structural design. \n Local axis convention in STAAD pro for finite elements plates is clearly illustrated and how it different from Local axis of beam element",
+      "icon": "12",
+      "price": "75,000",
+      "image": "https://www.researchgate.net/publication/228691115/figure/fig4/AS:302002669146118@1449014455268/Structural-Optimization-Results.png",
+      "category": "Advanced",
+      "lessons_count": 5
+    },
+    {
+      "id": "13",
+      "name": "Electric Vehicles Battery Management System & Swapping Technologies",
+      "description": "Understanding on Battery management systems in EV,How does the communication happens between charging structure and BMS in EV,Understanding on Battery swapping technology",
+      "icon": "13",
+      "price": "1,50,000",
+      "image": "https://esmito.com/img/bms-in-a-ev.png",
+      "category": "Advanced",
+      "lessons_count": 5
+    },
+    {
+      "id": "14",
+      "name": "Embedded and Antenna RF ",
+      "description": "Embedded basically means combining and this course is based on Embedded Rf Design by experienced Industrial Experts ",
+      "icon": "14",
+      "price": "65,000",
+      "image": "https://resources.altium.com/sites/default/files/blogs/Embedded%20RF%20Design%3A%20Ceramic%20Chip%20Antennas%20vs.%20PCB%20Trace%20Antennas-68719.jpg",
+      "category": "Advanced",
+      "lessons_count": 5
+    },
+    {
+      "id": "15",
+      "name": "Optical Communication and SDN",
+      "description": "Learn from Industry Experts and Earn on working in live-projects",
+      "icon": "15",
+      "price": "80,000",
+      "image": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs41476-019-0105-4/MediaObjects/41476_2019_105_Fig1_HTML.png",
+      "category": "Advanced",
+      "lessons_count": 5
+    }
+  ]
+}
